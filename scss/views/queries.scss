@@ -1,0 +1,28 @@
+/* Media Queries - Vista Movil */
+@media (max-width: 600px) {
+
+    .grid-container {
+        
+          grid-template:
+
+          "navegacion" 4%
+          "main" 20% 
+           "main_item" 35%
+          "footer" 1fr
+
+    }
+
+}
+
+/* Media Queries - Vista Desktop */
+@media (min-width: 900px) {
+
+    .grid-container {
+        grid-template:
+            "navegacion" 4%
+            "header" 35%
+             "main" 10% 
+             "main_item" 35%
+            "footer" 1fr
+    }
+}

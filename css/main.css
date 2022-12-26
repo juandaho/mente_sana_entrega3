@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "navegacion" "header" "main" "main_item" "footer";
+}
+
+/* Media Queries - Vista Movil */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template: "navegacion" 4% "main" 20% "main_item" 35% "footer" 1fr;
+  }
+}
+/* Media Queries - Vista Desktop */
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template: "navegacion" 4% "header" 35% "main" 10% "main_item" 35% "footer" 1fr;
+  }
+}
+.navegacion {
+  color: white;
+}
+
+.encabezado {
+  grid-area: header;
+  background: url(../asset/mente.png) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.text_ppal {
+  grid-area: main;
+  display: flex;
+  color: #132242;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}/*# sourceMappingURL=main.css.map */

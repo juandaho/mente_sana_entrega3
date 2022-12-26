@@ -1,0 +1,8 @@
+.text_ppal {
+  grid-area: main;
+  display: flex;
+  color: #132242;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}/*# sourceMappingURL=text_ppal.css.map */

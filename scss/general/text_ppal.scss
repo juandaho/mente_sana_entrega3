@@ -1,0 +1,13 @@
+@import '../utilities/color.scss';
+
+
+.text_ppal {
+
+    grid-area: main;
+    display: flex;
+    color: $colorTextPpal;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+
+}
