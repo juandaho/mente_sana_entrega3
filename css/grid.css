@@ -1,0 +1,4 @@
+.grid-container {
+  display: grid;
+  grid-template-areas: "navegacion" "header" "text_ppal" "items" "footer";
+}/*# sourceMappingURL=grid.css.map */

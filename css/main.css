@@ -7,19 +7,19 @@
 
 .grid-container {
   display: grid;
-  grid-template-areas: "navegacion" "header" "main" "main_item" "footer";
+  grid-template-areas: "navegacion" "header" "text_ppal" "items" "footer";
 }
 
 /* Media Queries - Vista Movil */
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .grid-container {
-    grid-template: "navegacion" 4% "main" 20% "main_item" 35% "footer" 1fr;
+    grid-template: "navegacion" 1fr "principal" 1fr "items" 1fr "footer" 1fr;
   }
 }
 /* Media Queries - Vista Desktop */
 @media (min-width: 900px) {
   .grid-container {
-    grid-template: "navegacion" 4% "header" 35% "main" 10% "main_item" 35% "footer" 1fr;
+    grid-template: "navegacion" 0.6fr "header" 3fr "principal" 0.3fr "items" 2.5fr "footer" 1fr;
   }
 }
 .navegacion {
@@ -34,10 +34,62 @@
 }
 
 .text_ppal {
-  grid-area: main;
+  grid-area: items;
   display: flex;
   color: #132242;
   justify-content: center;
   align-items: center;
   font-size: x-large;
+}
+
+.infoItems {
+  grid-area: items;
+  grid-template-rows: auto;
+  background-color: #f2f2f2;
+}
+
+.card {
+  width: 12rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.25s;
+}
+.card h4 {
+  font-size: 0.5rem;
+}
+.card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #283368;
+  font-style: bold;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: white;
+}
+.social a {
+  font-size: 24px;
+  color: white;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+.social a:hover {
+  opacity: 0.9;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+.footer {
+  grid-area: footer;
+  background-color: #283368;
+  font-style: bold;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: white;
+}
+.social a {
+  font-size: 24px;
+  color: white;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+.social a:hover {
+  opacity: 0.9;
+}/*# sourceMappingURL=footer.css.map */

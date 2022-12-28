@@ -1,12 +1,12 @@
 /* Media Queries - Vista Movil */
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .grid-container {
-    grid-template: "navegacion" 4% "main" 20% "main_item" 35% "footer" 1fr;
+    grid-template: "navegacion" 1fr "principal" 1fr "items" 1fr "footer" 1fr;
   }
 }
 /* Media Queries - Vista Desktop */
 @media (min-width: 900px) {
   .grid-container {
-    grid-template: "navegacion" 4% "header" 35% "main" 10% "main_item" 35% "footer" 1fr;
+    grid-template: "navegacion" 0.6fr "header" 3fr "principal" 0.3fr "items" 2.5fr "footer" 1fr;
   }
 }/*# sourceMappingURL=queries.css.map */

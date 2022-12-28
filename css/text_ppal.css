@@ -1,5 +1,5 @@
 .text_ppal {
-  grid-area: main;
+  grid-area: items;
   display: flex;
   color: #132242;
   justify-content: center;
