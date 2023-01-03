@@ -99,4 +99,28 @@
 }
 .social a:hover {
   opacity: 0.9;
+}
+
+.botonClientes, .cliente3, .cliente2, .cliente1 {
+  height: 40px;
+  min-width: 100px;
+  background: #132242;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+
+.cliente1 {
+  color: white;
+}
+
+.cliente2 {
+  color: #53b7f9;
+}
+
+.cliente3 {
+  color: #e9eaef;
 }/*# sourceMappingURL=main.css.map */
