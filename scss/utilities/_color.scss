@@ -1,4 +1,14 @@
+// Sass declaración de variables de colores y de Mixin Mapa
+
 $colorNav:white;
 $colorTextPpal:#132242;
 $colorMenuHoover: #53b7f9;
+
+// Declaramos nuestro mapa
+$mapa: (
+    llave1: black,
+    llave2: blue,
+    llave3: $colorMenuHoover,
+);
+
 

@@ -101,7 +101,7 @@
   opacity: 0.9;
 }
 
-.botonClientes, .cliente3, .cliente2, .cliente1 {
+.botonClientes {
   height: 40px;
   min-width: 100px;
   background: #132242;
@@ -113,14 +113,14 @@
   transition: 0.5s all ease-in-out;
 }
 
-.cliente1 {
-  color: white;
+.cliente-llave1 {
+  color: black;
 }
 
-.cliente2 {
+.cliente-llave2 {
+  color: blue;
+}
+
+.cliente-llave3 {
   color: #53b7f9;
-}
-
-.cliente3 {
-  color: #e9eaef;
 }/*# sourceMappingURL=main.css.map */

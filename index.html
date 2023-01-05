@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Datos para SEO -->
+  <meta name="description" content="Grupo sicólogico que presta servicios en distintos enfoques">
+  <meta name="keywords" content="sicologia, terapia, personalizado, humano, servicio, economico">
+
   <!-- Fuentes de Google -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +26,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
 
-  <!-- CSS construido por Juan David -->
+<!-- CSS construido por SASS-->
   <link rel="stylesheet" href="./css/main.css">
 
 
@@ -34,15 +38,17 @@
 <body class="grid-container">
 
 
-  <!-- Grid: Menú de Navegación -->
+  <!-- Grid: Menú de Navegación usando Bootstrap-->
   <nav class="navegacion navbar navbar-expand-lg bg-body-tertiary navbar-light" style="background-color: #0e2244;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html"><img src="./asset/Logo_MenteSana.png" alt="" width="20%"></a>
-      <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
-        <span class="navbar-toggler-icon burguerButton" ></span>
+      <a class="navbar-brand" href="./index.html"><img src="./asset/Logo_MenteSana.png" alt="Logo mente sana"
+          width="20%"></a>
+      <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon burguerButton"></span>
       </button>
-      <div class="navbar-light collapse navbar-collapse" id="navbarSupportedContent" >
+      <div class="navbar-light collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
           <li class="nav-item">
@@ -87,43 +93,44 @@
   </article>
 
 
-  <!-- Grid: Información del Main -->
+  <!-- Grid: Información del Main usando Bootstrap -->
   <div class="items infoItems">
 
     <div class=" container text-center">
       <div class="row align-items-center">
         <div class=" col m-4 align-items-center center-block">
-          <img class="card d-lg-inline-flex img-responsive center-block d-block mx-auto" src="./asset/cliente1.jpg" alt="">
-          <h4>Cliente 1</h4>
-          <button class="cliente1">Testimonios</button>
-        </div>
-        <div class="col m-4">
-          <img class="card d-lg-inline-flex img-responsive center-block d-block mx-auto" src="./asset/cliente2.jpg" alt="">
-          <h4>Cliente 2</h4>
-          <button class="cliente2">Testimonios</button>
+          <img class="card d-lg-inline-flex img-responsive center-block d-block mx-auto" src="./asset/cliente1.jpg"
+            alt="Cliente 1">
+
+          <!-- La clase cliente-llave# usa Mixins Sass  -->
+          <h4 class="cliente-llave1">Cliente 1</h4>
 
         </div>
         <div class="col m-4">
-          <img class="card d-lg-inline-flex img-responsive center-block d-block mx-auto" src="./asset/cliente3.jpg" alt="">
-          <h4>Cliente 3</h4>
-          <button class="cliente3">Testimonios</button>
+          <img class="card d-lg-inline-flex img-responsive center-block d-block mx-auto" src="./asset/cliente2.jpg"
+            alt="Cliente 2">
+          <!-- La clase cliente-llave# usa Mixins Sass  -->
+          <h4 class="cliente-llave2">Cliente 2</h4>
+
+
+        </div>
+        <div class="col m-4">
+          <img class="card d-lg-inline-flex img-responsive center-block d-block mx-auto" src="./asset/cliente3.jpg"
+            alt="Cliente 3">
+
+          <!-- La clase cliente-llave# usa Mixins Sass  -->
+          <h4 class="cliente-llave3">Cliente 3</h4>
+
 
         </div>
       </div>
       <div class="row">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus recusandae consequatur
         accusantium cupiditate dignissimos veritatis fugiat unde error iusto reprehenderit, quaerat voluptas numquam
-        aspernatur quis, nam a minus fuga quia?         
+        aspernatur quis, nam a minus fuga quia?
 
       </div>
 
-   
-
-        
-
-     
-      
     </div>
-
 
   </div>
 
@@ -142,7 +149,7 @@
 
     </div>
 
-    <p>2022</p>
+    <p>2023</p>
 
   </footer>
 

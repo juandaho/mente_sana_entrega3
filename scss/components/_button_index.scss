@@ -1,33 +1,28 @@
+// Sass usando Mixing en el index
+
+
 @import '../utilities/color.scss';
 
-.botonClientes
-{
 
-    height:40px;
+
+.botonClientes {
+
+    height: 40px;
     min-width: 100px;
     background: $colorTextPpal;
-    color:white;
+    color: white;
     border-radius: 5px;
     font-size: 16px;
     margin: 5px;
     cursor: pointer;
     transition: 0.5s all ease-in-out;
- 
-}
 
-.cliente1{
-	@extend .botonClientes;
-		color:white;
-}
-
-.cliente2{
-	@extend .botonClientes;
-	color:$colorMenuHoover;
-}
-
-.cliente3{
-	@extend .botonClientes;
-	color:#e9eaef;
 }
 
 
+@each $llave,
+$valor in $mapa {
+    .cliente-#{$llave} {
+        color: $valor;
+    }
+}
